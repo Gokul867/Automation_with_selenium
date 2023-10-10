@@ -1,0 +1,974 @@
+1683265459985	geckodriver	INFO	Listening on 127.0.0.1:50725
+1683265463056	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50726" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileBnqfcc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683265463622	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683265463630	Marionette	INFO	Listening on port 50742
+Read port: 50742
+WebDriver BiDi listening on ws://127.0.0.1:50726
+1683265463824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileBnqfcc\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50726/devtools/browser/c0d91426-dbad-4910-bfd7-ecc4f0572618
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+1683265501487	Marionette	INFO	Stopped listening on port 50742
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1683265505671	geckodriver	INFO	Listening on 127.0.0.1:50926
+1683265508726	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50927" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofilet4DLz2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683265509168	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683265509174	Marionette	INFO	Listening on port 50940
+Read port: 50940
+WebDriver BiDi listening on ws://127.0.0.1:50927
+1683265509408	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofilet4DLz2\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50927/devtools/browser/043bd6c5-f6b3-481a-aa75-752321632252
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+1683265525337	Marionette	INFO	Stopped listening on port 50940
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1683288150773	geckodriver	INFO	Listening on 127.0.0.1:50316
+1683288153847	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50317" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofile25ped9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683288154330	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683288154336	Marionette	INFO	Listening on port 50326
+Read port: 50326
+WebDriver BiDi listening on ws://127.0.0.1:50317
+1683288154539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofile25ped9\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50317/devtools/browser/836666ce-7f8b-4ee9-87ed-3aecebd02a39
+1683288168688	Marionette	INFO	Stopped listening on port 50326
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1683288354106	geckodriver	INFO	Listening on 127.0.0.1:50438
+1683288356945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50439" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileSTVYgl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683288357637	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683288357647	Marionette	INFO	Listening on port 50447
+Read port: 50447
+WebDriver BiDi listening on ws://127.0.0.1:50439
+1683288357906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileSTVYgl\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50439/devtools/browser/dc5bac4b-c229-4b67-953f-1a7908edad35
+1683288364084	Marionette	INFO	Stopped listening on port 50447
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1683288479958	geckodriver	INFO	Listening on 127.0.0.1:50513
+1683288482884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50514" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileO5fPAD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683288483185	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683288483190	Marionette	INFO	Listening on port 50521
+Read port: 50521
+WebDriver BiDi listening on ws://127.0.0.1:50514
+1683288483337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileO5fPAD\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50514/devtools/browser/4368ba09-03b0-4caa-8d38-f535618680dd
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.redfin.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1683288807431	Marionette	INFO	Stopped listening on port 50521
+Dynamically enable window occlusion 1
+[Parent 21672, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+1683288777062	Marionette	INFO	Stopped listening on port 50685
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50799" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileguXIht"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683288769636	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683288769641	Marionette	INFO	Listening on port 50806
+Read port: 50806
+WebDriver BiDi listening on ws://127.0.0.1:50799
+1683288769806	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileguXIht\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50799/devtools/browser/73589249-3e3a-4247-8994-9fac559b5c49
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+1683289192061	geckodriver	INFO	Listening on 127.0.0.1:51227
+1683289195031	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51228" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileyN2g61"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683289195333	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683289195338	Marionette	INFO	Listening on port 51236
+Read port: 51236
+WebDriver BiDi listening on ws://127.0.0.1:51228
+1683289195504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileyN2g61\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51228/devtools/browser/ee9f6bbe-d061-4e72-873a-fc94d6cba90b
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+1683289507599	Marionette	INFO	Stopped listening on port 51236
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51351" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofile7Wakxu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683289241786	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683289241791	Marionette	INFO	Listening on port 51360
+Read port: 51360
+WebDriver BiDi listening on ws://127.0.0.1:51351
+1683289241945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofile7Wakxu\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51351/devtools/browser/4ced44b2-2569-4534-bbdf-88555042172e
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+1683289509033	Marionette	INFO	Stopped listening on port 51360
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51513" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofilexzOj53"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683289333999	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683289334003	Marionette	INFO	Listening on port 51522
+Read port: 51522
+WebDriver BiDi listening on ws://127.0.0.1:51513
+1683289334161	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofilexzOj53\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51513/devtools/browser/7c3dd980-d060-4f97-aa26-f498855ec8eb
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.redfin.com."
+JavaScript warning: https://cdn.intergient.com/pageos/1.9.20/videoCard.01fa78e7064a386f48fc.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~eef79283.c65673c6b2abb661243d.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~1be0a3c0.560bee74b3712fcb3009.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~1be0a3c0.560bee74b3712fcb3009.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~eef79283.c65673c6b2abb661243d.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ikSMSteO3o14Tpi7JK6I_pos91N-O9tJx_W-F7IaH6U.js line 2 > eval line 413 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1683289511764	Marionette	INFO	Stopped listening on port 51522
+Dynamically enable window occlusion 1
+1683289573611	geckodriver	INFO	Listening on 127.0.0.1:63311
+1683289576586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63312" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileiSh6q3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683289576977	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683289576981	Marionette	INFO	Listening on port 63321
+Read port: 63321
+WebDriver BiDi listening on ws://127.0.0.1:63312
+1683289577135	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileiSh6q3\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63312/devtools/browser/ab70b0eb-e046-481b-8bb6-9f2825cefe5a
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.redfin.com."
+JavaScript warning: https://cdn.intergient.com/pageos/1.9.20/videoCard.01fa78e7064a386f48fc.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~eef79283.c65673c6b2abb661243d.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~1be0a3c0.560bee74b3712fcb3009.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~1be0a3c0.560bee74b3712fcb3009.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~eef79283.c65673c6b2abb661243d.bundle.js, line 1: unreachable code after return statement
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+[Parent 3960, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.redfin.com."
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~eef79283.c65673c6b2abb661243d.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~1be0a3c0.560bee74b3712fcb3009.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~1be0a3c0.560bee74b3712fcb3009.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~eef79283.c65673c6b2abb661243d.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ikSMSteO3o14Tpi7JK6I_pos91N-O9tJx_W-F7IaH6U.js line 2 > eval line 434 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Error when attaching target:" (new Error("Connection closed, pending request to server0.conn0.windowGlobal109521666051/thread1, type isAttached failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nattachThread@resource://devtools/client/fronts/targets/target-mixin.js:447:49\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Error when attaching target:" (new Error("Connection closed, pending request to server0.conn0.windowGlobal109521666051/thread1, type isAttached failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nattachThread@resource://devtools/client/fronts/targets/target-mixin.js:447:49\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Error when attaching target:" (new Error("Protocol error (noSuchActor): No such actor for ID: server0.conn0.windowGlobal92341796868/thread1 from: server0.conn0.windowGlobal92341796868/thread1", "resource://devtools/shared/protocol/Front.js", 383))
+console.error: "Error when attaching target:" (new Error("Protocol error (noSuchActor): No such actor for ID: server0.conn0.windowGlobal92341796868/thread1 from: server0.conn0.windowGlobal92341796868/thread1", "resource://devtools/shared/protocol/Front.js", 383))
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal124554051586/thread1, {\"from\":\"server0.conn0.windowGlobal124554051586/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: Error: Unexpected packet server0.conn0.windowGlobal124554051586/thread1, {"from":"server0.conn0.windowGlobal124554051586/thread1"}
+Stack: onPacket@resource://devtools/shared/protocol/Front.js:362:24
+onPacket@resource://devtools/client/devtools-client.js:488:13
+send/<@resource://devtools/shared/transport/local-transport.js:67:25
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 362, column: 24
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal124554051586/thread1, {\"from\":\"server0.conn0.windowGlobal124554051586/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal113816633368/thread1, {\"from\":\"server0.conn0.windowGlobal113816633368/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: Error: Unexpected packet server0.conn0.windowGlobal113816633368/thread1, {"from":"server0.conn0.windowGlobal113816633368/thread1"}
+Stack: onPacket@resource://devtools/shared/protocol/Front.js:362:24
+onPacket@resource://devtools/client/devtools-client.js:488:13
+send/<@resource://devtools/shared/transport/local-transport.js:67:25
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 362, column: 24
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal113816633368/thread1, {\"from\":\"server0.conn0.windowGlobal113816633368/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal113816633369/thread1, {\"from\":\"server0.conn0.windowGlobal113816633369/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: Error: Unexpected packet server0.conn0.windowGlobal113816633369/thread1, {"from":"server0.conn0.windowGlobal113816633369/thread1"}
+Stack: onPacket@resource://devtools/shared/protocol/Front.js:362:24
+onPacket@resource://devtools/client/devtools-client.js:488:13
+send/<@resource://devtools/shared/transport/local-transport.js:67:25
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 362, column: 24
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal113816633369/thread1, {\"from\":\"server0.conn0.windowGlobal113816633369/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal113816633370/thread1, {\"from\":\"server0.conn0.windowGlobal113816633370/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: Error: Unexpected packet server0.conn0.windowGlobal113816633370/thread1, {"from":"server0.conn0.windowGlobal113816633370/thread1"}
+Stack: onPacket@resource://devtools/shared/protocol/Front.js:362:24
+onPacket@resource://devtools/client/devtools-client.js:488:13
+send/<@resource://devtools/shared/transport/local-transport.js:67:25
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 362, column: 24
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal113816633370/thread1, {\"from\":\"server0.conn0.windowGlobal113816633370/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal113816633371/thread1, {\"from\":\"server0.conn0.windowGlobal113816633371/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: Error: Unexpected packet server0.conn0.windowGlobal113816633371/thread1, {"from":"server0.conn0.windowGlobal113816633371/thread1"}
+Stack: onPacket@resource://devtools/shared/protocol/Front.js:362:24
+onPacket@resource://devtools/client/devtools-client.js:488:13
+send/<@resource://devtools/shared/transport/local-transport.js:67:25
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 362, column: 24
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal113816633371/thread1, {\"from\":\"server0.conn0.windowGlobal113816633371/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal113816633372/thread1, {\"from\":\"server0.conn0.windowGlobal113816633372/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: Error: Unexpected packet server0.conn0.windowGlobal113816633372/thread1, {"from":"server0.conn0.windowGlobal113816633372/thread1"}
+Stack: onPacket@resource://devtools/shared/protocol/Front.js:362:24
+onPacket@resource://devtools/client/devtools-client.js:488:13
+send/<@resource://devtools/shared/transport/local-transport.js:67:25
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 362, column: 24
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal113816633372/thread1, {\"from\":\"server0.conn0.windowGlobal113816633372/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal113816633373/thread1, {\"from\":\"server0.conn0.windowGlobal113816633373/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: Error: Unexpected packet server0.conn0.windowGlobal113816633373/thread1, {"from":"server0.conn0.windowGlobal113816633373/thread1"}
+Stack: onPacket@resource://devtools/shared/protocol/Front.js:362:24
+onPacket@resource://devtools/client/devtools-client.js:488:13
+send/<@resource://devtools/shared/transport/local-transport.js:67:25
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 362, column: 24
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal113816633373/thread1, {\"from\":\"server0.conn0.windowGlobal113816633373/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2770: Error: Can't select tool, wait for toolbox 'ready' event
+Handler function BrowserTabList.prototype.onCloseWindow's delayed body threw an exception: TypeError: watcher.browserElement.browsingContext is null
+Stack: destroyTargets@resource://devtools/server/actors/watcher/target-helpers/frame-helper.js:193:5
+unwatchTargets@resource://devtools/server/actors/watcher.js:250:24
+destroy@resource://devtools/server/actors/watcher.js:177:12
+destroy@resource://devtools/shared/protocol/Pool.js:211:17
+destroy@resource://devtools/shared/protocol/Actor.js:89:11
+destroy@resource://devtools/server/actors/descriptors/tab.js:251:11
+BrowserTabList.prototype._handleActorClose@resource://devtools/server/actors/webbrowser.js:414:9
+BrowserTabList.prototype.onCloseWindow</<@resource://devtools/server/actors/webbrowser.js:663:16
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+Line: 193, column: 5
+console.error: (new TypeError("watcher.browserElement.browsingContext is null", "resource://devtools/server/actors/watcher/target-helpers/frame-helper.js", 193))
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 4085: TypeError: this.toolbarButtons is undefined
+console.error: "Error when attaching JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+console.error: "Unable to find target with innerWindowId:15032385537"
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://cdn.intergient.com/pageos/1.9.20/videoCard.01fa78e7064a386f48fc.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~eef79283.c65673c6b2abb661243d.bundle.js, line 1: unreachable code after return statement
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal6442450980/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal6442450980/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal6442450980/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+_getWalker@resource://devtools/client/fronts/inspector.js:84:30
+initialize@resource://devtools/client/fronts/inspector.js:73:12
+
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~1be0a3c0.560bee74b3712fcb3009.bundle.js, line 1: unreachable code after return statement
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~1be0a3c0.560bee74b3712fcb3009.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~eef79283.c65673c6b2abb661243d.bundle.js, line 1: unreachable code after return statement
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal6442450990/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal6442450990/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal6442450990/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+_getWalker@resource://devtools/client/fronts/inspector.js:84:30
+initialize@resource://devtools/client/fronts/inspector.js:73:12
+
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ikSMSteO3o14Tpi7JK6I_pos91N-O9tJx_W-F7IaH6U.js line 2 > eval line 4423 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal21474836482/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal60129542145/inspectorActor4, {\"walker\":{\"actor\":\"server0.conn0.windowGlobal60129542145/domwalker18\",\"root\":{\"actor\":\"server0.conn0.windowGlobal60129542145/domnode17\",\"baseURI\":\"https://sync-tm.everesttech.net/upi/pid/b9pj45k4?redir=https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZqcz0xJmNvZGU9MjE5MSZ0bD0yNTkyMDA=&piggybackCookie=${TM_USER_ID}&gdpr=1&gdpr_consent=\",\"nodeType\":9,\"nodeName\":\"#document\",\"nodeValue\":null,\"displayName\":\"#document\",\"numChildren\":1,\"displayType\":null,\"isScrollable\":false,\"isTopLevelDocument\":true,\"causesOverflow\":false,\"isMarkerPseudoElement\":false,\"isBeforePseudoElement\":false,\"isAfterPseudoElement\":false,\"isAnonymous\":false,\"isNativeAnonymous\":false,\"isShadowRoot\":false,\"shadowRootMode\":null,\"isDirectShadowHostChild\":null,\"mutationBreakpoints\":{\"subtree\":false,\"removal\":false,\"attribute\":false},\"isDisplayed\":true,\"isInHTMLDocument\":null,\"hasEventListeners\":false,\"traits\":{}},\"traits\":{}},\"from\":\"server0.conn0.windowGlobal60129542145/inspectorActor4\"}", "resource://devtools/shared/protocol/Front.js", 362))
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: Error: Unexpected packet server0.conn0.windowGlobal60129542145/inspectorActor4, {"walker":{"actor":"server0.conn0.windowGlobal60129542145/domwalker18","root":{"actor":"server0.conn0.windowGlobal60129542145/domnode17","baseURI":"https://sync-tm.everesttech.net/upi/pid/b9pj45k4?redir=https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZqcz0xJmNvZGU9MjE5MSZ0bD0yNTkyMDA=&piggybackCookie=${TM_USER_ID}&gdpr=1&gdpr_consent=","nodeType":9,"nodeName":"#document","nodeValue":null,"displayName":"#document","numChildren":1,"displayType":null,"isScrollable":false,"isTopLevelDocument":true,"causesOverflow":false,"isMarkerPseudoElement":false,"isBeforePseudoElement":false,"isAfterPseudoElement":false,"isAnonymous":false,"isNativeAnonymous":false,"isShadowRoot":false,"shadowRootMode":null,"isDirectShadowHostChild":null,"mutationBreakpoints":{"subtree":false,"removal":false,"attribute":false},"isDisplayed":true,"isInHTMLDocument":null,"hasEventListeners":false,"traits":{}},"traits":{}},"from":"server0.conn0.windowGlobal60129542145/inspectorActor4"}
+Stack: onPacket@resource://devtools/shared/protocol/Front.js:362:24
+onPacket@resource://devtools/client/devtools-client.js:488:13
+send/<@resource://devtools/shared/transport/local-transport.js:67:25
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 362, column: 24
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal60129542145/inspectorActor4, {\"walker\":{\"actor\":\"server0.conn0.windowGlobal60129542145/domwalker18\",\"root\":{\"actor\":\"server0.conn0.windowGlobal60129542145/domnode17\",\"baseURI\":\"https://sync-tm.everesttech.net/upi/pid/b9pj45k4?redir=https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZqcz0xJmNvZGU9MjE5MSZ0bD0yNTkyMDA=&piggybackCookie=${TM_USER_ID}&gdpr=1&gdpr_consent=\",\"nodeType\":9,\"nodeName\":\"#document\",\"nodeValue\":null,\"displayName\":\"#document\",\"numChildren\":1,\"displayType\":null,\"isScrollable\":false,\"isTopLevelDocument\":true,\"causesOverflow\":false,\"isMarkerPseudoElement\":false,\"isBeforePseudoElement\":false,\"isAfterPseudoElement\":false,\"isAnonymous\":false,\"isNativeAnonymous\":false,\"isShadowRoot\":false,\"shadowRootMode\":null,\"isDirectShadowHostChild\":null,\"mutationBreakpoints\":{\"subtree\":false,\"removal\":false,\"attribute\":false},\"isDisplayed\":true,\"isInHTMLDocument\":null,\"hasEventListeners\":false,\"traits\":{}},\"traits\":{}},\"from\":\"server0.conn0.windowGlobal60129542145/inspectorActor4\"}", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal60129542145/inspectorActor4, {\"pageStyle\":{\"actor\":\"server0.conn0.windowGlobal60129542145/pagestyle19\",\"traits\":{\"fontStretchLevel4\":true,\"fontStyleLevel4\":true,\"fontVariations\":true,\"fontWeightLevel4\":true}},\"from\":\"server0.conn0.windowGlobal60129542145/inspectorActor4\"}", "resource://devtools/shared/protocol/Front.js", 362))
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: Error: Unexpected packet server0.conn0.windowGlobal60129542145/inspectorActor4, {"pageStyle":{"actor":"server0.conn0.windowGlobal60129542145/pagestyle19","traits":{"fontStretchLevel4":true,"fontStyleLevel4":true,"fontVariations":true,"fontWeightLevel4":true}},"from":"server0.conn0.windowGlobal60129542145/inspectorActor4"}
+Stack: onPacket@resource://devtools/shared/protocol/Front.js:362:24
+onPacket@resource://devtools/client/devtools-client.js:488:13
+send/<@resource://devtools/shared/transport/local-transport.js:67:25
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 362, column: 24
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal60129542145/inspectorActor4, {\"pageStyle\":{\"actor\":\"server0.conn0.windowGlobal60129542145/pagestyle19\",\"traits\":{\"fontStretchLevel4\":true,\"fontStyleLevel4\":true,\"fontVariations\":true,\"fontWeightLevel4\":true}},\"from\":\"server0.conn0.windowGlobal60129542145/inspectorActor4\"}", "resource://devtools/shared/protocol/Front.js", 362))
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal60129542145/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal75161927681/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal75161927681/inspectorActor4, {\"walker\":{\"actor\":\"server0.conn0.windowGlobal75161927681/domwalker18\",\"root\":{\"actor\":\"server0.conn0.windowGlobal75161927681/domnode17\",\"baseURI\":\"https://dps.jp.cinarra.com/pxd?PLATFORM_ID=D&USER_ID=7D666322-BDE0-474F-9FCE-42EE074DBE9B\",\"nodeType\":9,\"nodeName\":\"#document\",\"nodeValue\":null,\"displayName\":\"#document\",\"numChildren\":1,\"displayType\":null,\"isScrollable\":false,\"isTopLevelDocument\":true,\"causesOverflow\":false,\"isMarkerPseudoElement\":false,\"isBeforePseudoElement\":false,\"isAfterPseudoElement\":false,\"isAnonymous\":false,\"isNativeAnonymous\":false,\"isShadowRoot\":false,\"shadowRootMode\":null,\"isDirectShadowHostChild\":null,\"mutationBreakpoints\":{\"subtree\":false,\"removal\":false,\"attribute\":false},\"isDisplayed\":true,\"isInHTMLDocument\":null,\"hasEventListeners\":false,\"traits\":{}},\"traits\":{}},\"from\":\"server0.conn0.windowGlobal75161927681/inspectorActor4\"}", "resource://devtools/shared/protocol/Front.js", 362))
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: Error: Unexpected packet server0.conn0.windowGlobal75161927681/inspectorActor4, {"walker":{"actor":"server0.conn0.windowGlobal75161927681/domwalker18","root":{"actor":"server0.conn0.windowGlobal75161927681/domnode17","baseURI":"https://dps.jp.cinarra.com/pxd?PLATFORM_ID=D&USER_ID=7D666322-BDE0-474F-9FCE-42EE074DBE9B","nodeType":9,"nodeName":"#document","nodeValue":null,"displayName":"#document","numChildren":1,"displayType":null,"isScrollable":false,"isTopLevelDocument":true,"causesOverflow":false,"isMarkerPseudoElement":false,"isBeforePseudoElement":false,"isAfterPseudoElement":false,"isAnonymous":false,"isNativeAnonymous":false,"isShadowRoot":false,"shadowRootMode":null,"isDirectShadowHostChild":null,"mutationBreakpoints":{"subtree":false,"removal":false,"attribute":false},"isDisplayed":true,"isInHTMLDocument":null,"hasEventListeners":false,"traits":{}},"traits":{}},"from":"server0.conn0.windowGlobal75161927681/inspectorActor4"}
+Stack: onPacket@resource://devtools/shared/protocol/Front.js:362:24
+onPacket@resource://devtools/client/devtools-client.js:488:13
+send/<@resource://devtools/shared/transport/local-transport.js:67:25
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 362, column: 24
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal75161927681/inspectorActor4, {\"walker\":{\"actor\":\"server0.conn0.windowGlobal75161927681/domwalker18\",\"root\":{\"actor\":\"server0.conn0.windowGlobal75161927681/domnode17\",\"baseURI\":\"https://dps.jp.cinarra.com/pxd?PLATFORM_ID=D&USER_ID=7D666322-BDE0-474F-9FCE-42EE074DBE9B\",\"nodeType\":9,\"nodeName\":\"#document\",\"nodeValue\":null,\"displayName\":\"#document\",\"numChildren\":1,\"displayType\":null,\"isScrollable\":false,\"isTopLevelDocument\":true,\"causesOverflow\":false,\"isMarkerPseudoElement\":false,\"isBeforePseudoElement\":false,\"isAfterPseudoElement\":false,\"isAnonymous\":false,\"isNativeAnonymous\":false,\"isShadowRoot\":false,\"shadowRootMode\":null,\"isDirectShadowHostChild\":null,\"mutationBreakpoints\":{\"subtree\":false,\"removal\":false,\"attribute\":false},\"isDisplayed\":true,\"isInHTMLDocument\":null,\"hasEventListeners\":false,\"traits\":{}},\"traits\":{}},\"from\":\"server0.conn0.windowGlobal75161927681/inspectorActor4\"}", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal75161927681/inspectorActor4, {\"pageStyle\":{\"actor\":\"server0.conn0.windowGlobal75161927681/pagestyle19\",\"traits\":{\"fontStretchLevel4\":true,\"fontStyleLevel4\":true,\"fontVariations\":true,\"fontWeightLevel4\":true}},\"from\":\"server0.conn0.windowGlobal75161927681/inspectorActor4\"}", "resource://devtools/shared/protocol/Front.js", 362))
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: Error: Unexpected packet server0.conn0.windowGlobal75161927681/inspectorActor4, {"pageStyle":{"actor":"server0.conn0.windowGlobal75161927681/pagestyle19","traits":{"fontStretchLevel4":true,"fontStyleLevel4":true,"fontVariations":true,"fontWeightLevel4":true}},"from":"server0.conn0.windowGlobal75161927681/inspectorActor4"}
+Stack: onPacket@resource://devtools/shared/protocol/Front.js:362:24
+onPacket@resource://devtools/client/devtools-client.js:488:13
+send/<@resource://devtools/shared/transport/local-transport.js:67:25
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 362, column: 24
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal75161927681/inspectorActor4, {\"pageStyle\":{\"actor\":\"server0.conn0.windowGlobal75161927681/pagestyle19\",\"traits\":{\"fontStretchLevel4\":true,\"fontStyleLevel4\":true,\"fontVariations\":true,\"fontWeightLevel4\":true}},\"from\":\"server0.conn0.windowGlobal75161927681/inspectorActor4\"}", "resource://devtools/shared/protocol/Front.js", 362))
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Error when attaching target:" (new Error("Connection closed, pending request to server0.conn0.windowGlobal51539607582/thread1, type isAttached failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nattachThread@resource://devtools/client/fronts/targets/target-mixin.js:447:49\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Error when attaching target:" (new Error("Connection closed, pending request to server0.conn0.windowGlobal81604378639/thread1, type isAttached failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nattachThread@resource://devtools/client/fronts/targets/target-mixin.js:447:49\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+1683290527792	geckodriver	INFO	Listening on 127.0.0.1:49872
+1683290530771	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49873" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofiledBx0RO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683290531223	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683290531229	Marionette	INFO	Listening on port 49881
+Read port: 49881
+WebDriver BiDi listening on ws://127.0.0.1:49873
+1683290531433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofiledBx0RO\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49873/devtools/browser/6779e3b5-4540-4609-ba48-1ba8fe03cbc6
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.redfin.com."
+JavaScript warning: https://cdn.intergient.com/pageos/1.9.20/videoCard.01fa78e7064a386f48fc.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~eef79283.c65673c6b2abb661243d.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~1be0a3c0.560bee74b3712fcb3009.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~1be0a3c0.560bee74b3712fcb3009.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~eef79283.c65673c6b2abb661243d.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ikSMSteO3o14Tpi7JK6I_pos91N-O9tJx_W-F7IaH6U.js line 2 > eval line 1928 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1683290560317	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+1683290806930	geckodriver	INFO	Listening on 127.0.0.1:57223
+1683290809905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57224" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileLwa9YL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683290810429	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683290810435	Marionette	INFO	Listening on port 57236
+Read port: 57236
+WebDriver BiDi listening on ws://127.0.0.1:57224
+1683290810650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileLwa9YL\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:57224/devtools/browser/f864b0e2-24f3-46d9-afdd-2f372d453c1d
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+1683290831828	geckodriver	INFO	Listening on 127.0.0.1:57346
+1683290834781	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57347" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofilebKo40I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683290835159	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683290835164	Marionette	INFO	Listening on port 57367
+Read port: 57367
+WebDriver BiDi listening on ws://127.0.0.1:57347
+1683290835368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofilebKo40I\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:57347/devtools/browser/ac2a0041-11cd-4a2d-bb7d-f9ad446ab881
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+1683290909649	geckodriver	INFO	Listening on 127.0.0.1:57509
+1683290912602	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57510" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileJ5fTfg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683290913037	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683290913042	Marionette	INFO	Listening on port 57520
+Read port: 57520
+WebDriver BiDi listening on ws://127.0.0.1:57510
+1683290913230	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileJ5fTfg\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:57510/devtools/browser/6dd7444a-059e-40f1-9e04-2748d07a7d46
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.redfin.com."
+JavaScript warning: https://cdn.intergient.com/pageos/1.9.20/videoCard.01fa78e7064a386f48fc.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~eef79283.c65673c6b2abb661243d.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~1be0a3c0.560bee74b3712fcb3009.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~1be0a3c0.560bee74b3712fcb3009.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/SearchPagePage~eef79283.c65673c6b2abb661243d.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ikSMSteO3o14Tpi7JK6I_pos91N-O9tJx_W-F7IaH6U.js line 2 > eval line 2004 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1683290941350	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1683291108004	geckodriver	INFO	Listening on 127.0.0.1:60477
+1683291110996	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60478" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofile7f269H"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683291111478	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683291111484	Marionette	INFO	Listening on port 60489
+Read port: 60489
+WebDriver BiDi listening on ws://127.0.0.1:60478
+1683291111687	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofile7f269H\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:60478/devtools/browser/d642328f-2bc8-48af-b093-33b742e69fca
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+1683291135538	geckodriver	INFO	Listening on 127.0.0.1:60604
+1683291138599	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60605" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileFe6nSw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683291139064	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683291139070	Marionette	INFO	Listening on port 60626
+Read port: 60626
+WebDriver BiDi listening on ws://127.0.0.1:60605
+1683291139291	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileFe6nSw\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:60605/devtools/browser/0434ec4c-fcee-4805-8a1a-a0ec0635b44a
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+1683291397633	geckodriver	INFO	Listening on 127.0.0.1:60984
+1683291400690	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60985" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileWfNtVl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683291401116	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683291401121	Marionette	INFO	Listening on port 60998
+Read port: 60998
+WebDriver BiDi listening on ws://127.0.0.1:60985
+1683291401279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gokul\\AppData\\Local\\Temp\\rust_mozprofileWfNtVl\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:60985/devtools/browser/5bdb7483-75a7-4137-8bb5-49c54f3fed42
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~83b5c8ab.79f7ad42b54c1b4b9fa8.bundle.js, line 1: unreachable code after return statement
+JavaScript warning: https://ssl.cdn-redfin.com/vLATEST/corvstatic/customer-pages/HomepagePage~eef79283.76f4b0d25c15b86d6c3b.bundle.js, line 1: unreachable code after return statement
